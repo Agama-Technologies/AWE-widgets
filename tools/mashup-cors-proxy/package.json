@@ -1,0 +1,28 @@
+{
+  "name": "mashup-cors-proxy",
+  "version": "1.0.0",
+  "main": "./bin/mcp.js",
+  "scripts": {
+    "start": "node ./bin/mcp.js",
+    "test": "echo \"No tests specified\" && exit 0"
+  },
+  "bin": {
+    "mcp": "./bin/mcp.js"
+  },
+  "author": "Gary Meehan",
+  "license": "MIT",
+  "keywords": [
+    "cors",
+    "proxy",
+    "simple",
+    "node",
+    "express"
+  ],
+  "dependencies": {
+    "chalk": "^2.3.2",
+    "command-line-args": "^5.0.2",
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "request": "^2.85.0"
+  }
+}
