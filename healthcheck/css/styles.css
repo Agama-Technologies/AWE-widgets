@@ -1,0 +1,38 @@
+.content {
+    margin-top: 20px;
+}
+
+.checks {
+    display: grid;
+    grid-template-columns: repeat(2, max-content);
+    grid-template-rows: repeat(6,max-content);
+    grid-column-gap: 20px;
+    grid-row-gap: 10px;        
+    align-items: center;
+}
+
+.name {
+    font-size: 1.6rem;
+    font-color: slategrey;
+}
+
+.status-box {
+    border-width: 1px;
+    border-style: dashed;
+    border-radius: 5px;
+    width: 30px;
+    height: 30px;    
+}
+
+
+.ok {
+    background-color: rgba(0,128,0,0.58);        
+}
+
+.fail {
+    background-color: orange;
+}
+
+.hide {
+    display:none;
+}

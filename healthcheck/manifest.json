@@ -1,0 +1,8 @@
+{
+    "id": "tv.agama.widget.health-check",
+    "title": "System health checks",
+    "description": "Check backend system health using REST API call",
+    "author": "Agama",
+    "version": 2
+}
+
